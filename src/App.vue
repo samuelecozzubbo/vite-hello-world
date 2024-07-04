@@ -1,9 +1,17 @@
-<script setup>
+<script>
 import HelloWorld from './components/HelloWorld.vue'
+import AppTitle from './components/AppTitle.vue'
+
+export default{
+  components: {
+    AppTitle,
+  }
+}
 </script>
 
 <template>
   <div>
+    <AppTitle />
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
